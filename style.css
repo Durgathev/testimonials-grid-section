@@ -25,16 +25,16 @@
   align-items: center;
 }
 .content-page{
-  max-width: 1920px;
+  max-width: 1180px;
   margin: 0 auto;
-  padding: 4rem 4rem 1rem 4rem;
+  padding: 2.5rem 4rem 1rem 4rem;
   cursor: default;
 }
 
 .testimonials{
   display:grid;
   grid-template-columns:repeat(4, 1fr);
-  grid-template-rows:250px 250px;
+  grid-template-rows:auto;
   grid-template-areas:"one one three five"
                       "two four four five";
   grid-gap:20px;
@@ -135,11 +135,11 @@ p{
    margin:10px auto;
  }
  .content-head > p{
-   padding-top: 2rem;
-   padding-bottom: 2rem;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
  }
 .comment > p{
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 .attribution{
   margin-top:10px;
@@ -149,7 +149,7 @@ p{
   .testimonials{
     display:grid;
     grid-template-columns:repeat(1, 1fr);
-    grid-template-rows:300px;
+    grid-template-rows:auto;
     grid-template-areas:"one"
                         "three"
                         "two"
